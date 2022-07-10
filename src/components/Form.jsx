@@ -2,48 +2,11 @@ import React, { useState } from 'react'
 
 const Form = () => {
     const [firstName, setFirstName] = useState("")
-    // const [firstNameError, setFirstNameError] = useState("")
     const [lastName, setLastName] = useState("")
-    // const [lastNameError, setLastNameError] = useState("")
     const [email, setEmail] = useState("")
-    // const [emailError, setEmailError] = useState("")
     const [password, setPassword] = useState("")
     const [confirmPassword, setConfirmPassword] = useState("")
-    // const [passError, setPassError] = useState("")
-    // const handleFirstName = (e) => {
-    //     setFirstName(e.target.value);
-    //     if(e.target.value.length<2){
-    //         setFirstNameError("Name must be at least 2 characters long");
-    //     }
-    // }
-    // const handleLastName = (e) => {
-    //     setLastName(e.target.value);
-    //     if(e.target.value.length<2){
-    //         setLastNameError("Name must be at least 2 characters long");
-    //     }
-    // }
-    // const handleEmail = (e) => {
-    //     setEmail(e.target.value);
-    //     if(e.target.value.length<4){
-    //         setEmailError("Email must be at least 5 characters long");
-    //     }
-    // }
-    // const handlePassword = (e) =>{
-    //     setPassword(e.target.value)
-    //     if(password !== "undefined" && confirmPassword !== "undefined") {
-    //         if(password != confirmPassword) {
-    //             setPassError("Passwords don't match!");
-    //         }
-    //     }
-    // }
-    // const handleConfirmPassword = (e) =>{
-    //     setConfirmPassword(e.target.value)
-    //     if(password !== "undefined" && confirmPassword !== "undefined") {
-    //         if(password != confirmPassword) {
-    //             setPassError("Passwords don't match!");
-    //         }
-    //     }
-    // }
+
 
     return (
         <form onSubmit={(e)=> e.preventDefault()}>
